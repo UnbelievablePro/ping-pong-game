@@ -118,3 +118,5 @@ while True:
         ball_x *= -1
     elif ball.xcor() > 340 and ball.ycor() < bar_B.ycor() + 50 and ball.ycor() > bar_B.ycor() -50:
         ball_x *= -1
+        
+    wind.update()
